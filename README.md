@@ -1,0 +1,2 @@
+# ServiceFabricVotingSample
+Microsoft Samples
