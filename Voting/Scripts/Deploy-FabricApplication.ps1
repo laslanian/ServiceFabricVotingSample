@@ -183,6 +183,7 @@ if (-not $UseExistingClusterConnection)
     try
     {
         [void](Connect-ServiceFabricCluster @ClusterConnectionParameters)
+		$global:clusterConnection = $clusterConnection  
     }
     catch [System.Fabric.FabricObjectClosedException]
     {
